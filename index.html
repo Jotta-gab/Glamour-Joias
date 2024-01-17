@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Logotipo_Nome_Monograma_Minimalista_Preto_e_Branco-removebg-preview (1).png" type="image/x-icon">
+    <title>Glamour-Joias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0"><img class="d-block"
+                        src="assets/Black_White_Minimalist_SImple_Monogram_Typography_Logo-removebg-preview.png" alt=""></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categorias">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promo">Promoção</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://Instagram.com" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="carrosel-img"
+                    src="https://images.unsplash.com/photo-1591209627710-d2427565a41f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Anel">
+                <div class="carousel-caption text-left lead">
+                    <h5>Anel Elegante</h5>
+                    <p>Descubra a sofisticação do nosso novo anel. Perfeito para ocasiões especiais.</p>
+                    <button class="btn btn-primary botao-lilas rounded-0 border-0">Comprar Agora</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carrosel-img lead"
+                    src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Colar">
+                <div class="carousel-caption text-left">
+                    <h5>Colar Exclusivo</h5>
+                    <p>Realce sua beleza com nosso novo colar. Perfeito para expressar sua individualidade.</p>
+                    <button class="btn btn-primary botao-lilas rounded-0 border-0">Comprar Agora</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carrosel-img lead"
+                    src="https://images.unsplash.com/photo-1619119069152-a2b331eb392a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Relógio">
+                <div class="carousel-caption text-left">
+                    <h5>Pulseira de Luxo</h5>
+                    <p>Esta Pulseira combina estilo e personalidade. Seja marcante com elegância.</p>
+                    <button class="btn btn-primary botao-lilas rounded-0 border-0">Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <h2 class="text-center m-5 lead display-6">Produtos em estoque:</h2>
+
+    <div class="container row mx-auto g-4" id="categorias">
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1586104195538-050b9f74f58e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Anel">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text lead">Aneis</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603578119639-798b8413d8d7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Oculos">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text lead">Oculos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1619119069152-a2b331eb392a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Pulseira">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text lead">Pulseiras</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1588444968576-f8fe92ce56fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Colares">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text lead">Colares</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img class="gray"
+                    src="https://images.unsplash.com/photo-1526045431048-f857369baa09?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Relogios">
+                <div class="card-header bg-gray text-bg-dark">
+                    <p class="text-center card-text lead">Relogios</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Bolsas">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text lead">Bolsas</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about-section m-5" id="quem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-4 ">Quem Somos</h2>
+                    <p class="lead">Bem-vindo à <span class="cor-lilas">Glamour-Joias</span>, sua loja online de joias e
+                        acessórios exclusivos.
+                        Estamos comprometidos em oferecer produtos de alta qualidade, design elegante e atendimento ao
+                        cliente
+                        excepcional.</p>
+
+                    <p class="lead">Somos uma equipe apaixonada por moda e estilo, dedicada a trazer a você as últimas
+                        tendências em
+                        joalheria. Nossos designers talentosos trabalham arduamente para criar peças únicas que refletem
+                        sofisticação e personalidade.</p>
+
+                    <p class="lead">Além disso, nos preocupamos com a sustentabilidade. Trabalhamos com materiais
+                        responsáveis e
+                        práticas éticas, contribuindo para um mundo mais consciente.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 class="text-center m-5 display-6">Produtos que estão bombando!</h2>
+
+    <div class="container row mx-auto" id="promo">
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1591209627710-d2427565a41f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%"
+                        alt="Anel de Diamante Eterno">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Anel de Diamante Eterno</h5>
+                        <p class="small-custom">R$2.500,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height rounded-0">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%"
+                        alt="Colar de Pérolas Luxuosas">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Colar de Pérolas Luxuosas</h5>
+                        <p class="small-custom">R$1.800,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height rounded-0">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1589674536249-62d7ea50d6e1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%" alt="Anel de Safira Azul">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Anel de Safira Azul</h5>
+                        <p class="small-custom">R$3.200,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height rounded-0">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1639006570490-79c0c53f1080?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%" alt="Relógio de Luxo">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Relógio de Luxo</h5>
+                        <p class="small-custom">R$4.500,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height rounded-0">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1591210244853-ea68b6126edf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%"
+                        alt="Pulseira de Ouro Branco">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Pulseira de Ouro Branco</h5>
+                        <p class="small-custom">R$2.800,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+                <div class="card card-fixed-height rounded-0">
+                    <img class="img-product"
+                        src="https://images.unsplash.com/photo-1588892239270-bab4a57b4b67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="bd-placeholder-img card-img-top" width="100%" height="100%" alt="Anel de Ouro Rosé">
+                    <div class="card-body lead">
+                        <h5 class="card-title">Anel de Ouro Rosé</h5>
+                        <p class="small-custom">R$3.200,00</p>
+                        <a href="produto.html" class="btn btn-primary botao-lilas rounded-0 border-0">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="reviews-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5">Avaliação de Clientes</h2>
+                    <p class="lead">Veja o que nossos clientes estão dizendo sobre nossos produtos.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto mb-4">
+                    <div class="card bg-light border-0">
+                        <div class="card-body mt-5">
+                            <h5 class="card-title lead">João Oliveira</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="star-rating">
+
+                                    <span class="bi bi-star-fill"></span>
+                                    <span class="bi bi-star-fill"></span>
+                                    <span class="bi bi-star-fill"></span>
+                                    <span class="bi bi-star-fill"></span>
+                                    <span class="bi bi-star"></span>
+                                </div>
+                                <small class=" small-custom lead">Há 2 semanas</small>
+                            </div>
+                            <p class="card-text lead">Estou muito satisfeito com a minha compra! O colar de pérolas que
+                                adquiri é
+                                simplesmente incrível. A qualidade é impressionante, e a entrega foi rápida. Recomendo a
+                                todos!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="pb-4 bg-black text-bg-dark mt-5">
+
+        <h2 class="text-center p-4 text-light display-6">Conheça todas nossas facilidades</h2>
+
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3 p-5">
+            <div class="beneficios d-flex align-items-center">
+                <div><i class=" verde-limao bi bi-x-diamond fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb1">PAGUE POR PIX</div>
+                    <div class="texto-menor ms-3">Ganhe 5%de desconto pagando via pix</div>
+                </div>
+            </div>
+            <div class="beneficios d-flex">
+                <div><i class="verde-limao bi bi-arrow-repeat fs-1 "></i></div>
+                <div>
+                    <div class="ms-3 mb1">TROCA GRÁTIS</div>
+                    <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias</div>
+                </div>
+            </div>
+            <div class="beneficios d-flex">
+                <div><i class="verde-limao bi bi-flower1 fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb1">SUSTENTABILIDADE</div>
+                    <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container-md px-3 mt-5 mb-5 d-flex justify-content-center">
+        <form class="border border-secondary m-3 p-3 text-center">
+            <h5 class="lead">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra?
+                Cadastre-se!</h5>
+            <div class="input-group my-3">
+                <input class="form-control border-secondary rounded-0" type="email" placeholder="Digite seu e-mail"
+                    aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+                <button type="button" id="button-addon2"
+                    class="btn btn-primary botao-lilas rounded-0 border-0">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="text-center bg-black text-bg-dark">
+        <p class="card-text py-3 lead">2023 <i class="bi bi-c-circle"></i> Desenvolvido por João Gabriel | Projeto
+            fictício sem fins comerciais.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

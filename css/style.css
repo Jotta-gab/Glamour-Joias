@@ -1,0 +1,171 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+nav.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6c757d;
+}
+
+.carousel-caption {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    color: #343a40;
+}
+
+.carousel-caption p {
+    color: #6c757d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #343a40;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators button {
+    background-color: #6c757d;
+}
+
+.carousel-indicators .active {
+    background-color: #343a40;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-header,
+.card-text {
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #343a40;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-primary:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+section {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.beneficios {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.beneficios i {
+    color: #9353FF;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.carrosel-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-product {
+    object-fit: cover;
+}
+
+.card-fixed-height {
+    height: 400px;
+}
+
+.img-colecao {
+    object-fit: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.img-nav {
+    object-fit: cover;
+}
+
+.about-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.reviews-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.small-custom,
+.bi-star-fill {
+    color: #f8f9fa;
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+.form {
+    background-color: #ffffff;
+    border: 1px solid #6c757d;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
